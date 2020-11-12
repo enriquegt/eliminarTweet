@@ -1,6 +1,8 @@
 import React from 'react';
 import {HeartOutline, ShareOutline, ChatOutline, DotsHorizontalOutline, TrashOutline} from '@graywolfai/react-heroicons';
 import './styles.css';
+import ContextMenu from '../context-menu';
+
 
 class Tweet extends React.Component{
     
@@ -16,14 +18,12 @@ class Tweet extends React.Component{
             <div className="tweet-container">
 
                 <div className="tweet-options-container">
-                    <div className="tweet-options">
+                    <div className="tweet-options" onClick={() => this.props.contextFn.toggleContextMenuFn(this.props.index)}>
                         <DotsHorizontalOutline />
                     </div>
-                    {/* <div className="tweet-options-menu">
-                        <div className="tweet-options-menu__row">
-                            <TrashOutline /><span>No me interesa este tweet</span>
-                        </div>
-                    </div> */}
+                    {
+                    this.props.showContextM ? (<ContextMenu removeFn={this.props.contextFn.removetweetFn} index={this.props.index} />) :  null
+                }
                 </div>
                 <div className="row">
                     <div className="c1">

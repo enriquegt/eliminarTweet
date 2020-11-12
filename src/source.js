@@ -1,5 +1,6 @@
 const feed = [
     {
+        showContextM: false,
         profile: "AJ + Español",
         profileUrl: "https://i.imgur.com/QJruc0xm.png",
         username: "ajplusespanol",
@@ -16,6 +17,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Elon Musk",
         profileUrl: "https://i.imgur.com/rNMKJSQl.jpg",
         username: "elonmusk",
@@ -30,6 +32,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Google",
         profileUrl: "https://i.imgur.com/xosRXkNl.jpg",
         username: "google",
@@ -44,6 +47,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "LeBron James",
         profileUrl: "https://i.imgur.com/d7KVNXwl.jpg",
         username: "KingJames",
@@ -57,6 +61,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "BBC Breaking News",
         profileUrl: "https://i.imgur.com/YbqahGPl.jpg",
         username: "BBCBreaking",
@@ -71,6 +76,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "NVIDIA GeForce",
         profileUrl: "https://i.imgur.com/Agv0nC3l.jpg",
         username: "NVIDIAGeForce",
@@ -86,6 +92,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "National Geographic",
         profileUrl: "https://i.imgur.com/3nwHKzRl.jpg",
         username: "NatGeo",
@@ -99,6 +106,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Hipertextual",
         profileUrl: "https://i.imgur.com/w8FdS5Pl.jpg",
         username: "Hipertextual",
@@ -112,6 +120,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "Hipertextual",
         profileUrl: "https://i.imgur.com/w8FdS5Pl.jpg",
         username: "Hipertextual",
@@ -124,6 +133,7 @@ const feed = [
         verified: true,
         blocked: false
     },{
+        showContextM: false,
         profile: "Real Madrid C.F.",
         profileUrl: "https://i.imgur.com/6kZ2yA5l.jpg",
         username: "realmadrid",
@@ -138,6 +148,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "UEFA Champions League",
         profileUrl: "https://i.imgur.com/rs0iJu3l.jpg",
         username: "ChampionsLeague",
@@ -151,6 +162,7 @@ const feed = [
         blocked: false
     },
     {
+        showContextM: false,
         profile: "FC Barcelona",
         profileUrl: "https://i.imgur.com/9IlaO4rl.jpg",
         username: "FCBarcelona_es",
@@ -167,6 +179,7 @@ const feed = [
         blocked: true
     },
     {
+        showContextM: false,
         profile: "Youtube",
         profileUrl: "https://i.imgur.com/jCaFJzUl.jpg",
         username: "Youtube",
